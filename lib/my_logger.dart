@@ -32,7 +32,7 @@ class Logger {
       case LogLevel.error:
         return '\x1B[31m'; // Red
       case LogLevel.verbose:
-        return '\x1B[38;5;211m'; // Pink-ish
+        return '\x1b[38;5;220m'; // Pink-ish
     }
   }
 
