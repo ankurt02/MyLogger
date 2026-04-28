@@ -5,6 +5,7 @@ my_logger:
       url: https://github.com/ankurt02/MyLogger.git
       ref: v1.2.0
 ```
+\* current version v1.2.2
 
 
 ### How to use
