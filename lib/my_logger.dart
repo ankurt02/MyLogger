@@ -57,8 +57,13 @@ class Logger {
 
     final tagPart = tag != null ? "[$tag] " : "";
 
-    final logText =
-        "[$time] $tagPart[${_levelToString(level)}] $message";
+    final prefix =
+    "[$time] $tagPart[${_levelToString(level)}] ";
+
+    final coloredMessage =
+      "$color$message$reset";
+
+    print(prefix + coloredMessage);
 
     if (enableColors) {
       print("$color$logText$reset");
